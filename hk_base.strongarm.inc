@@ -14,7 +14,7 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'admin_theme';
-  $strongarm->value = 'adminimal';
+  $strongarm->value = 'hk_adminimal';
   $export['admin_theme'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -70,14 +70,14 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ds_extras_region_to_block';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['ds_extras_region_to_block'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ds_extras_switch_view_mode';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['ds_extras_switch_view_mode'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -97,15 +97,8 @@ function hk_base_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'jquery_update_jquery_admin_version';
-  $strongarm->value = '1.5';
-  $export['jquery_update_jquery_admin_version'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'jquery_update_jquery_cdn';
-  $strongarm->value = 'google';
+  $strongarm->value = 'none';
   $export['jquery_update_jquery_cdn'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -168,7 +161,7 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Herbert + Kohlmeyer Immobilien GmbH';
+  $strongarm->value = 'Herbert + Kohlmeyer Real Estate';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
