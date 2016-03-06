@@ -28,17 +28,5 @@ function hk_base_user_default_roles() {
     'weight' => 3,
   );
 
-  // Exported role: Übersetzer.
-  $roles['Übersetzer'] = array(
-    'name' => 'Übersetzer',
-    'weight' => 4,
-  );
-
-  // Exported role: Übersetzungsgeber.
-  $roles['Übersetzungsgeber'] = array(
-    'name' => 'Übersetzungsgeber',
-    'weight' => 6,
-  );
-
   return $roles;
 }
