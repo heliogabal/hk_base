@@ -140,7 +140,7 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'advagg_cron_timestamp';
-  $strongarm->value = 1457218277;
+  $strongarm->value = 1461035318;
   $export['advagg_cron_timestamp'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -196,7 +196,7 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'advagg_global_counter';
-  $strongarm->value = 9;
+  $strongarm->value = 12;
   $export['advagg_global_counter'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -915,7 +915,10 @@ function hk_base_strongarm() {
     'favicon_upload' => '',
     'style_checkboxes' => 1,
     'display_icons_config' => 1,
+    'rounded_buttons' => 1,
+    'sticky_actions' => 1,
     'avoid_custom_font' => 0,
+    'adminimal_ckeditor' => 1,
     'use_custom_media_queries' => 0,
     'media_query_mobile' => 'only screen and (max-width: 480px)',
     'media_query_tablet' => 'only screen and (min-width : 481px) and (max-width : 1024px)',
@@ -960,7 +963,7 @@ function hk_base_strongarm() {
     'media_query_tablet' => 'only screen and (min-width : 481px) and (max-width : 1024px)',
     'custom_css' => 0,
     'adminimal_theme_skin' => 'material',
-    'jquery_update_jquery_version' => '1.5',
+    'jquery_update_jquery_version' => 'default',
     'favicon_mimetype' => 'image/vnd.microsoft.icon',
   );
   $export['theme_hk_adminimal_settings'] = $strongarm;
@@ -974,8 +977,8 @@ function hk_base_strongarm() {
     'toggle_favicon' => 1,
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 1,
-    'default_logo' => 1,
-    'logo_path' => '',
+    'default_logo' => 0,
+    'logo_path' => 'sites/all/themes/hk_theme/H+K_Logo.svg',
     'logo_upload' => '',
     'default_favicon' => 0,
     'favicon_path' => 'sites/all/themes/hk_theme/images/favicon.ico',
