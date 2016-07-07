@@ -70,7 +70,7 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'advagg_browser_dns_prefetch';
-  $strongarm->value = 1;
+  $strongarm->value = '1';
   $export['advagg_browser_dns_prefetch'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -98,14 +98,14 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'advagg_cache_level';
-  $strongarm->value = '1';
+  $strongarm->value = '3';
   $export['advagg_cache_level'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'advagg_combine_css_media';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['advagg_combine_css_media'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -140,7 +140,7 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'advagg_cron_timestamp';
-  $strongarm->value = 1461035318;
+  $strongarm->value = 1466445917;
   $export['advagg_cron_timestamp'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -196,7 +196,7 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'advagg_global_counter';
-  $strongarm->value = 12;
+  $strongarm->value = 15;
   $export['advagg_global_counter'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -525,7 +525,7 @@ function hk_base_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cdn_basic_mapping';
-  $strongarm->value = 'http://d6ilimlq7c61o.cloudfront.net';
+  $strongarm->value = 'https://d6ilimlq7c61o.cloudfront.net';
   $export['cdn_basic_mapping'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -963,7 +963,7 @@ function hk_base_strongarm() {
     'media_query_tablet' => 'only screen and (min-width : 481px) and (max-width : 1024px)',
     'custom_css' => 0,
     'adminimal_theme_skin' => 'material',
-    'jquery_update_jquery_version' => 'default',
+    'jquery_update_jquery_version' => '1.7',
     'favicon_mimetype' => 'image/vnd.microsoft.icon',
   );
   $export['theme_hk_adminimal_settings'] = $strongarm;

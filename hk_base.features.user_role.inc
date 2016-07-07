@@ -19,7 +19,7 @@ function hk_base_user_default_roles() {
   // Exported role: administrator.
   $roles['administrator'] = array(
     'name' => 'administrator',
-    'weight' => 2,
+    'weight' => 8,
   );
 
   // Exported role: admintooluser.
